@@ -19,9 +19,9 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: sudo apt-get install npm
 
       - name: Run tests
-        run: npm test
+        run: sudo apt-get test npm
 
       # Add additional steps here for build, deploy, etc.
