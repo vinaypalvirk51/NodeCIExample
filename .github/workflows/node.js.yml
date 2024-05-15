@@ -22,6 +22,6 @@ jobs:
         run: sudo apt-get install npm
 
       - name: Run tests
-        run: sudo apt-get test npm
+        run: sudo npm test
 
       # Add additional steps here for build, deploy, etc.
